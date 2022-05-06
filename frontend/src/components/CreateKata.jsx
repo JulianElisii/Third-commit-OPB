@@ -4,10 +4,6 @@ import axios from 'axios';
 import { useSsessionStorage } from '../hooks/SessionStorage';
 import M from "materialize-css"
 
-
-
-
-
 function CreateKata() {
   const initialentry = { name: "", description: "", solution: "", _id: "", Languages: "", participants: "" }
   const [code, setCode] = useState(initialentry);

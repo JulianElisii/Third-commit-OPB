@@ -3,8 +3,6 @@ import React, { useEffect, useState } from 'react';
 import CodeEditor from '@uiw/react-textarea-code-editor';
 import M from "materialize-css"
 
-
-
 const Home = () => {
 
     useEffect(() => {
